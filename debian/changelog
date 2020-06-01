@@ -1,3 +1,12 @@
+flask (0.10.1-2ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2018-1000656.patch: fixing data incorrect encode
+      in flask/json.py, flask/testsuite/helpers.py, flask/wrappers.py.
+    - CVE-2018-1000656
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Mon, 01 Jun 2020 08:41:19 -0300
+
 flask (0.10.1-2build2) wily; urgency=medium
 
   * No-change rebuild for python3.5 transition
